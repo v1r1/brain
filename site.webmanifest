@@ -1,0 +1,13 @@
+{
+  "short_name": "hexOS",
+  "name": "hexOS",
+  "icons": [{
+    "src": "favicon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#000",
+  "theme_color": "#000",
+  "display": "standalone"
+}
