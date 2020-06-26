@@ -15,12 +15,18 @@ p =
   --x-axis-page-align: center;
   --max-width: 400px;
 }
+header {
+  flex-flow:column;
+}
+.hexOS-title {
+  font-size: 3em;
+}
 </style>
 
 <body class="xyz">
     
   <page id="XYZContent">
-    <p>search bar here</p>
+    <input class="searchBar" type="text" id="filterTags" onkeyup="filterTags()" placeholder="Search...">
   </page>
 
 </body>
