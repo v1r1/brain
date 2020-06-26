@@ -30,9 +30,9 @@
    *  Fonts  *
    ***********/
 
-  --primary-font: 'EXEPixelPerfect', monospace;
-  --secondary-font: 'pcSenior', monospace;
-  --header-font: 'orange_kid', monospace;
+  --primary-font: 'Calibri', monospace;
+  --secondary-font: 'Calibri', monospace;
+  --header-font: 'Calibri', monospace;
   --font-size: var(--responsive-font-size);
   /************
    *  Images  *
