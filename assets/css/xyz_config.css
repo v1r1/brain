@@ -1,0 +1,275 @@
+@charset 'UTF-8';
+
+/***************
+ *  Variables  *
+ ***************/
+:root {
+  /****************
+   *  Main Theme  *
+   ****************/
+
+  --y-axis-page-align: center;
+  --x-axis-page-align: center;
+
+  --primary-color: green;
+  --secondary-color: limegreen;
+  --tertiary-color: lime;
+  --background-color: transparent;
+  --background-border-color: transparent;
+  --border-bg-color: black;
+
+  --background: transparent;
+
+  /* Border */
+  --border-type: double;
+  --border-thickness: 4px;
+  --border-radius: 0px;
+  --border-color: lime;
+
+  /***********
+   *  Sizes  *
+   ***********/
+
+  --max-width: 350px;
+
+  /***********
+   *  Fonts  *
+   ***********/
+
+  --primary-font: 'EXEPixelPerfect', monospace;
+  --secondary-font: 'pcSenior', monospace;
+  --header-font: 'orange_kid', monospace;
+  --font-size: var(--responsive-font-size);
+  /************
+   *  Images  *
+   ************/
+}
+
+/***************
+ *  Font-Face  *
+ ***************/
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+@font-face {
+  font-family: 'pcSenior';
+  src:
+    local('PC Senior'),
+    url('/assets/fonts/pcsenior.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'EXEPixelPerfect';
+  src:
+    local('EXEPixelPerfect'),
+    url('/assets/fonts/EXEPixelPerfect.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'kirbyss';
+  src:
+    local('kirbyss'),
+    url('/assets/fonts/kirbyss.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ROADWAY';
+  src:
+    local('ROADWAY'),
+    url('/assets/fonts/ROADWAY_.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'orange_kid';
+  src:
+    local('orange_kid'),
+    url('/assets/fonts/orange_kid.ttf') format('truetype');
+}
+
+/************
+ *  Custom  *
+ ************/
+
+.xyz {
+  box-shadow: inset 0px 0px 191px 196px rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+  font-family: orange_kid;
+  text-transform: uppercase;
+  color: limegreen;
+  background: #111;
+  margin: 1px 5px;
+  padding: 8px 11px 11px 11px;
+  border: solid 2px;
+  box-shadow: 0px 0px 50px 5px rgba(0,0,0,1);
+  -webkit-box-shadow: 0px 0px 50px 5px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 50px 5px rgba(0,0,0,1);
+}
+
+.imgBorder {
+  border: var(--border-thickness) var(--border-type) var(--border-color);
+  margin: 5px;
+}
+.vstitle {
+  color: limegreen;
+  margin: 0 5px;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+.slide-in-bottom {
+	-webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
+	        animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
+}
+@-webkit-keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-top {
+	-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
+	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
+}
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.space .speech {
+  color: limegreen;
+  max-width: 500px;
+  width: 95%;
+}
+.space .btn {
+  color: limegreen;
+}
+.buttonlist {
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: sans-serif;
+}
+.buttonlist a {
+  color: lime;
+  width: 35px;
+  height: 35px;
+  border: var(--border-thickness) var(--border-type) var(--border-color);
+  border-radius: var(--border-radius);
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 0 5px;
+  background: black;
+  transform: scale(1);
+  transition: transform .2s;
+}
+.buttonlist a:hover {
+  transform: scale(1.2);
+}
+.buttonlist a:active {
+  transform: scale(1.1);
+}
+
+/* Links */
+#vaynwork {
+  color: grey;
+}
+#vaynwork:hover {
+  color: white;
+}
+
+#twitter {
+  color: #089;
+}
+#twitter:hover {
+  color: #ffffff;
+}
+
+#rimage {
+  width: 100%;
+  height: 100%;
+}
+
+#canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+html {
+  font-size: 150%;
+}
+
+/* Random Image Effects */
+.image-invert {
+  filter: invert(100%);
+}
+.image-grayscale {
+  filter: grayscale(100%);
+}
+.image-hue {
+  filter: hue-rotate(240deg);
+}
+.image-invert {
+  filter: saturate(7);
+}
+
+/* Gunmetal Page */
+.gunmetal {
+  --background-color: #2A3439;
+  --background-border-color: #2A3439;
+  --border-bg-color: #2A3439;
+  background: #2A3439;
+}
+
+.gunmetal-text {
+  color: #AAA9AD;
+  font-size: 2em;
+}
