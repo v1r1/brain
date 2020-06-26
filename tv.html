@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<script src="https://static.vaynwork.com/xyz/JS/xyz.js"></script>
+<link rel="stylesheet" href="https://static.vaynwork.com/xyz/CSS/xyz.css">
+<link rel="stylesheet" href="/assets/css/xyz_config.css">
+<script>
+p =
+{
+  "pageName": "TV Shows",
+  "layout": "empty"
+}
+</script>
+
+<body class="xyz">
+
+    <main>
+      <div class="obj bdr">
+        <div class="group-r">
+
+          <select id="filterStatus" onchange="filterStatus()">
+            <option value=""></option>
+            <option value="💚">💚</option>
+            <option value="✔️">✔️</option>
+            <option value="❌">❌</option>
+          </select>
+
+          <select id="filterFormat" onchange="filterFormat()">
+            <option value=""></option>
+            <option value="Live Action">Live Action</option>
+            <option value="Anime">Anime</option>
+            <option value="Cartoon">Cartoon</option>
+          </select>
+
+          <input type="text" id="filterTitle" onkeyup="filterTitle()" placeholder="Title">
+
+        </div>
+      </div>
+
+      <div style="overflow-x:auto;">
+        <!-- Table -->
+        <table id="TVShowTable">
+
+          <!-- Table head -->
+          <thead>
+            <tr>
+              <th onclick="sortTable(0)">Title</th>
+              <th onclick="sortTable(1)">Status</th>
+              <th onclick="sortTable(2)">Format</th>
+            </tr>
+          </thead>
+
+          <!-- Table body -->
+          <tbody id="projects"></tbody>
+
+        </table>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <script src="/assets/js/TVShowList.js"></script>
+    </main>
+
+</body>
