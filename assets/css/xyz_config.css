@@ -86,3 +86,14 @@
 html {
   font-size: 150%;
 }
+header {
+  flex-flow:column;
+}
+.hexOS-title {
+  font-size: 7em;
+}
+.home-search {
+  background: #333;
+  color: lime;
+  margin: 20px 0;
+}
