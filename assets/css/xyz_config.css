@@ -68,6 +68,9 @@
 html {
   font-size: 150%;
 }
+body {
+  padding: 0 40px;
+}
 header {
   flex-flow:column;
 }
@@ -78,4 +81,5 @@ header {
   background: #333;
   color: lime;
   margin: 20px 0;
+  width: 100%;
 }
