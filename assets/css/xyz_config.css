@@ -14,34 +14,20 @@
 
   --background: transparent;
 
-  /* Border */
   --border-type: double;
   --border-thickness: 4px;
   --border-radius: 0px;
   --border-color: lime;
 
-  /***********
-   *  Sizes  *
-   ***********/
-
   --max-width: 1000px;
-
-  /***********
-   *  Fonts  *
-   ***********/
 
   --primary-font: 'EXEPixelPerfect', monospace;
   --secondary-font: 'pcSenior', monospace;
   --header-font: 'orange_kid', monospace;
   --font-size: var(--responsive-font-size);
-  /************
-   *  Images  *
-   ************/
+
 }
 
-/***************
- *  Font-Face  *
- ***************/
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 @font-face {
@@ -78,10 +64,6 @@
     local('orange_kid'),
     url('/assets/fonts/orange_kid.ttf') format('truetype');
 }
-
-/************
- *  Custom  *
- ************/
 
 html {
   font-size: 150%;
