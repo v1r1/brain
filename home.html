@@ -5,15 +5,22 @@
 <script>
   p =
   {
-    "layout": "default"
+    "pageName": "Home",
+    "layout": "home"
   }
 </script>
-
+<style>
+  :root {
+    --y-axis-page-align: center;
+    --x-axis-page-align: center;
+    --max-width: 600px;
+  }
+</style>
 
 <body class="xyz">
 
   <main>
-    <xyz-query src="/page_content/" key="q"></xyz-query>
+    <input class="home-search" type="text" id="filterTags" onkeyup="filterTags()" placeholder="Search...">
   </main>
 
 </body>
