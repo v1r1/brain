@@ -1,19 +1,33 @@
 <!DOCTYPE html>
-<script src="https://static.vuwnu.com/zoon/JS/zoon.js"></script>
-<link rel="stylesheet" href="https://static.vuwnu.com/zoon/CSS/zoon.css">
-<link rel="stylesheet" href="/assets/css/zoon_config.css">
-<script>
-  p =
-  {
-    "layout": "default"
-  }
-</script>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <title>hexOS</title>
+  <link rel="icon" href="/icon.png" sizes="192x192" type="image/png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-<body class="zoon">
+  <link rel="manifest" href="/site.webmanifest">
 
+  <!-- Stylesheets -->
+  <script src="https://cdn.jsdelivr.net/gh/vuwnu/zoon@master/dist/zoon.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/gh/vuwnu/gluey@master/gluey.css" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<html class="default">
+
+<body class="use-layout single-column">
+  <z-sm>
+    <z-title prepend="" title="Hex0S" append=""></z-title>
+    <z-frame frame="default" src="/frames/"></z-frame>
+  </z-sm>
   <main>
-    <zoon-query src="/page_content/" key="q"></zoon-query>
+    <z-html-path src="/pages"></z-html-path>
   </main>
 
 </body>
+
+</html>
