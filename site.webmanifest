@@ -1,8 +1,8 @@
 {
-  "short_name": "hexOS",
-  "name": "hexOS",
+  "short_name": "HexOS",
+  "name": "HexOS",
   "icons": [{
-    "src": "favicon.png",
+    "src": "icon.png",
     "type": "image/png",
     "sizes": "192x192"
   }],
