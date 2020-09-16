@@ -72,22 +72,6 @@
     local('orange_kid'),
     url('/assets/fonts/orange_kid.ttf') format('truetype');
 }
-
-html {
-  font-size: 150%;
-}
 body {
   padding: 0 40px;
-}
-header {
-  flex-flow:column;
-}
-.hexOS-title {
-  font-size: 7em;
-}
-.home-search {
-  background: #333;
-  color: lime;
-  margin: 20px 0;
-  width: 100%;
 }
