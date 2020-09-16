@@ -28,10 +28,10 @@
 
   --max-width: 1000px;
 
-  --primary-font: 'EXEPixelPerfect', monospace;
-  --secondary-font: 'pcSenior', monospace;
-  --header-font: 'orange_kid', monospace;
-  --font-size: var(--responsive-font-size);
+  --font-primary: 'EXEPixelPerfect', monospace;
+  --font-secondary: 'pcSenior', monospace;
+  --font-header: 'orange_kid', monospace;
+  --font-size: 100%;
 
 }
 
