@@ -5,19 +5,26 @@
   --y-axis-page-align: flex-start;
   --x-axis-page-align: center;
 
-  --primary-color: green;
-  --secondary-color: limegreen;
-  --tertiary-color: lime;
+  --color-accent-1: rgb(77, 166, 81);
+  --color-accent-2: lime;
+  --color-accent-3: limegreen;
+  --color-accent-4: limegreen;
+
+  --color-logo: white;
+
+  --color-main-1: #222;
+  --color-main-2: #111;
+  --color-main-3: lime;
+
   --background-color: transparent;
-  --background-border-color: transparent;
-  --border-bg-color: black;
+  --background-border-color: #1d1d1d;
+  --border-bg-color: #222;
 
-  --background: transparent;
+  --background: #111;
 
-  --border-type: double;
-  --border-thickness: 4px;
-  --border-radius: 0px;
-  --border-color: lime;
+  --scrollbar-width: 5px;
+  --scrollbar-track: #111;
+  --scrollbar-handle: grey;
 
   --max-width: 1000px;
 
