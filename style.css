@@ -31,7 +31,8 @@
 
   --font-primary: 'Open Sans', monospace;
   --font-secondary: 'pcSenior', monospace;
-  --font-header: 'orange_kid', monospace;
+  --font-header: 'Open Sans', monospace;
+  --font-logo: 'pcSenior', monospace;
   --font-size: 100%;
 
 }
