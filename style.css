@@ -23,6 +23,11 @@
 
   --background: #111;
 
+  --border-type: double;
+  --border-thickness: 4px;
+  --border-radius: 0px;
+  --border-color: lime;
+
   --scrollbar-width: 5px;
   --scrollbar-track: #111;
   --scrollbar-handle: grey;
