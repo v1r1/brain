@@ -21,7 +21,7 @@
   --background-border-color: #1d1d1d;
   --border-bg-color: #222;
 
-  --background: #000;
+  --background: transparent;
 
   --border-type: double;
   --border-thickness: 4px;
