@@ -35,9 +35,9 @@
   --max-width: 1300px;
 
   --font-primary: 'EXEPixelPerfect', monospace;
-  --font-secondary: 'pcSenior', monospace;
-  --font-header: 'Open Sans', monospace;
-  --font-logo: 'pcSenior', monospace;
+  --font-secondary: 'EXEPixelPerfect', monospace;
+  --font-header: 'EXEPixelPerfect', monospace;
+  --font-logo: 'EXEPixelPerfect', monospace;
   --font-size: 150%;
 
 }
