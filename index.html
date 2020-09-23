@@ -28,15 +28,18 @@
   </z-sm>
   <canvas id="canvas"></canvas>
   <main class="row" anim="slide-in-back dur:.5s">
-    <section class="bdr bg fl:20 p:10 m:10" style="background:#000;max-height:350px;">
+    <section class="bdr bg fl:20 p:10" style="background:#000;max-height:350px;">
       <h3 style="margin:5px;margin-bottom:0;">contents</h3>
       <ul class="minimal" style="overflow:auto;">
         <li><a href="/">Home</a></li>
+        <li><a href="/me">Me</a></li>
         <li><a href="/youtubers">YouTubers</a></li>
         <li><a href="/websites">Websites</a></li>
       </ul>
     </section>
-    <z-html-path class="bdr bg fl:60 m:10" style="background:#000;min-height:600px;" src="/pages"></z-html-path>
+    <section class="bdr bg fl:60 p:0/20" style="background:#000;min-height:600px;" >
+      <z-html-path src="/pages"></z-html-path>
+    </section>
   </main>
   <script src="/scripts.js"></script>
 </body>
